@@ -48,9 +48,6 @@ const linksMenu = [
 ];
 
 async function fetcher() {
-  // const baseUrl = "https://plausible.io/api/v1/stats/realtime/visitors";
-  // const parameterizedUrl = `${url}?site_id=${SITE_ID}`;
-
   return new Promise((resolve, reject) => {
     let body = "";
     const request = {
